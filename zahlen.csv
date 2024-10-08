@@ -1,0 +1,11 @@
+import pandas as pd
+
+#Erstellung eines Panda-DataFrames
+
+# Beispiel-Daten: Zahlen von 0 bis 9 und ihre Quadrate
+x = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+y = [i**2 for i in x]  # Quadratzahlen
+
+# Beispiel-Daten: Zahlen von 0 bis 9 und ihre Kubikzahlen
+x = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+y = [i**3 for i in x]  # Quadratzahlen
